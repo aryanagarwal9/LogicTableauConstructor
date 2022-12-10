@@ -33,3 +33,7 @@ To see some examples, see the sample input file. The input file should have the 
 
 If a formula is parsed as a formula, a tableau is constructed and checked to see if it has an open branch. For propositional formulas, the program determines whether or not it is satisfiable. For first order logic formulas, we assume there are no free variables. We try to determine satisfiability; however, the tableau may never close. Thus, if the program is required to add more than 10 new constants to all open branches under some reasonable and fair schedule, it leaves satisfiability undetermined.
 
+## Running the code
+* Clone the repo
+* `cd` into to the directory
+* Run `python3 tableau.py`
